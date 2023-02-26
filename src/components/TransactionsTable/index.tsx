@@ -25,7 +25,7 @@ export function TransactionsTable() {
                             return (
                                 <tr key={transaction.id}>
                                     <td>{transaction.title}</td>
-                                    <td>
+                                    <td className={transaction.type}>
                                         {new Intl.NumberFormat('pt-br', {
                                             style: 'currency',
                                             currency: 'BRL'

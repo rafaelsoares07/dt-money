@@ -33,8 +33,16 @@ export const Container = styled.div`
         background: var(--shape);
         color: var(--text-body);
 
+
         &:first-child{
             color: var(--text-title);
         }
+
+    }
+    .deposit{
+        color: var(--green);
+    }
+    .withdraw{
+        color: var(--red);
     }
 `

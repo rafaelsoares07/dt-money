@@ -23,32 +23,24 @@ createServer({
         {
           id: 2,
           title: 'Roupas Novas',
-          type: 'deposit',
+          type: 'withdraw',
           category: 'Extras',
-          amount: 150,
+          amount: 250,
           createAt: new Date('2021-02-12 09:00:00')
         },
         {
           id: 3,
-          title: 'Roupas Novas',
-          type: 'deposit',
-          category: 'Extras',
+          title: 'Academia',
+          type: 'withdraw',
+          category: 'Saúde e bem estar',
           amount: 150,
           createAt: new Date('2021-02-12 09:00:00')
         }, {
           id: 4,
-          title: 'Roupas Novas',
-          type: 'withdraw',
-          category: 'Extras',
-          amount: 150,
-          createAt: new Date('2021-02-12 09:00:00')
-        },
-        {
-          id: 5,
-          title: 'Roupas Novas',
-          type: 'withdraw',
-          category: 'Extras',
-          amount: 15000,
+          title: 'Salário',
+          type: 'deposit',
+          category: 'Dev',
+          amount: 5000,
           createAt: new Date('2021-02-12 09:00:00')
         }
       ]
