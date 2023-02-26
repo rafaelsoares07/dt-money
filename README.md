@@ -40,6 +40,11 @@ POST /api/transaction
      "type":"deposit" | "withdraw"
   }
 ```
-## Mais Informações do projeto:
+## :muscle: Novos Aprendizados:
+Para realizar esse projeto, decidi utilizar o MirageJS, uma biblioteca de simulação de API que permitiu criar uma experiência de desenvolvimento mais rápida e mais eficiente.
+
+Ao utilizar o MirageJS, pude criar mocks de API que permitiram simular as chamadas reais à API e trabalhar no frontend sem a necessidade de depender da API real para testar e iterar meu trabalho. Com essa abordagem, pude desenvolver novos recursos sem ter que esperar pela implementação da API real e sem o risco de afetar os dados reais do usuário.
+
+## :heavy_plus_sign: Mais Informações do projeto:
 [Deploy Vercel](https://dt-money-nine-dun.vercel.app/)
 
