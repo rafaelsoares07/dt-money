@@ -10,7 +10,13 @@ Este é um lugar onde você pode facilmente controlar suas finanças, monitorand
 Gerencie suas finanças com facilidade e comece a tomar decisões financeiras mais inteligentes hoje mesmo!
 
 ## :art: Layouts:
+### <p align="center">Desktop</p>
 ![Desktop](https://user-images.githubusercontent.com/88918826/221388791-4e93705e-e47b-443a-b83d-68eeba8c7dd3.png)
+### <p align="center">Mobile</p>
+<div align="center">
+   <img src="https://user-images.githubusercontent.com/88918826/221389117-9878314e-65df-4518-8d6c-c186af833842.png"/>
+</div>
+
 
 ## :computer: Tecnologias e Libs utilizadas:
 - ReactJS
@@ -35,5 +41,5 @@ POST /api/transaction
   }
 ```
 ## Mais Informações do projeto:
-[Deploy Vercel](https://github.com/rafaelsoares07/projeto20-repoProvas-FRONT)
+
 
