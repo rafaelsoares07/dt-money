@@ -26,7 +26,7 @@ export function TransactionsProvider({ children }: TransactionsContextProps) {
     const [transactions, setTransactions] = useState < Transaction[] > ([]);
 
     useEffect(() => {
-        api.get('transactions')
+        api.get('transaction')
             .then(response => setTransactions(response.data.transactions))
     }, [])
 
