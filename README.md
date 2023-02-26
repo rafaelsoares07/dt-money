@@ -9,8 +9,8 @@
 Este é um lugar onde você pode facilmente controlar suas finanças, monitorando suas entradas e saídas de dinheiro de maneira simples e organizada.
 Gerencie suas finanças com facilidade e comece a tomar decisões financeiras mais inteligentes hoje mesmo!
 
-
-![Demo](https://imgur.com/a/VaexbVr)
+## :art: Layouts:
+![Desktop](https://user-images.githubusercontent.com/88918826/221388791-4e93705e-e47b-443a-b83d-68eeba8c7dd3.png)
 
 ## :computer: Tecnologias e Libs utilizadas:
 - ReactJS
