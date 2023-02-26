@@ -66,9 +66,6 @@ createServer({
 
       return schema.create('transaction', data)
     })
-
-    this.namespace = "" // or this.namespace = "/"
-    this.passthrough() // now this will pass through everything not handled to the current domain (e.g. localhost:3000)
   },
 })
 
