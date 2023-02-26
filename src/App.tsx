@@ -2,7 +2,17 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+export function App() {
+
+  const [isNewTransactionModalOpen, setIsNewTransactionModalOpen] = useState(false);
+
+  function handleOpenNewTransactionModal() {
+    setIsNewTransactionModalOpen(true)
+  }
+
+  function handleCloseNewTransactionModal() {
+    setIsNewTransactionModalOpen(false)
+  }
   return (
     <div className="App">
       <header className="App-header">
